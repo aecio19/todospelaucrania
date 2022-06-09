@@ -1,0 +1,129 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+  
+  body {
+    font-size: 100%;
+    background: rgb(255,243,78);
+background: linear-gradient(90deg, rgba(255,243,78,1) 0%, rgba(255,241,73,1) 24%, rgba(255,236,49,1) 47%, rgba(255,223,97,1) 100%);
+    background-repeat: no-repeat;
+    color: #ffffff;
+    font-family: sans-serif;
+  }
+  
+  header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px;
+    border-bottom: 2px solid #000000;
+  }
+  
+  main {
+    font-size: large;
+    text-shadow: 1px 1px 2px #000000;
+  }
+  
+  footer {
+    text-shadow: 1px 1px 2px #000000;
+    text-align: center;
+    border-top: 1px solid #000000;
+    padding: 12px;
+    align-items: center;
+  }
+  
+  h1 {
+    text-shadow: 2px 2px 5px #000000;
+  }
+  
+  h2 {
+    text-shadow: 1px 1px 3px #000000;
+    margin-bottom: 5%;
+    text-decoration: underline;
+    text-align: center;
+  }
+  
+  button {
+    text-align: center;
+    margin: 5%;
+    margin-left: 40%;
+    font-family: serif;
+    font-size: 15px;
+    padding: 12px;
+    color: black;
+    background-color: #dfb920;
+    border: 1px solid black;
+    transition-duration: 0.4s;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+  input {
+    font-size: 18px;
+    font-family: fill-box;
+    padding-left: 5px;
+    width: 150px;
+    height: 30px;
+    border: 2px solid #000000;
+    border-radius: 5px;
+  }
+  
+  .c1 {
+    margin-top: 5%;
+    margin-right: 10%;
+    margin-left: 10%;
+    text-align: center;
+  }
+  
+  .c2 {
+    margin-top: 5%;
+    margin-right: 10%;
+    margin-left: 10%;
+  }
+  
+  .ft {
+    width: 5%;
+    height: 5%;
+  }
+  
+  .logo {
+    width: 2%;
+    height: 2%;
+  }
+  
+  .img {
+    width: 70%;
+    height: 40%;
+  }
+  
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "main main";
+    justify-content: stretch;
+  }
+  
+  .rodapec1 {
+    margin-top: 1%;
+    margin-bottom: 1%;
+  }
+  
+  .rodape {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2%;
+  }
+  
+  #valor {
+    width: 15%;
+  }
